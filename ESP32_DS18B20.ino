@@ -42,10 +42,10 @@ TinyGPSPlus gps;
 HardwareSerial Serial1(2);
 
 
-const char* ssid      = "CFBPlab";
-const char* pass      = "zelenakravanadnuoceana";
-const char* resource  = "/trigger/sensor_data_test/with/key/bRQTfIjBrmkSqeT3QeTt0E";
-const char* server    = "maker.ifttt.com";
+const char* ssid      = "-------";
+const char* pass      = "-------";
+const char* resource  = "-------";
+const char* server    = "-------";
 
 
 void setup(void) {
@@ -58,7 +58,7 @@ void setup(void) {
     // GPS serial
     Serial1.begin(GPSBaud, SERIAL_8N1, RXPin, TXPin);
     
-    Serial.println("***** Komunalac test DS18B20 *****");
+    Serial.println("***** test DS18B20 *****");
 
     sensor_inhouse.begin();
 
