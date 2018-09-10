@@ -1,17 +1,3 @@
-//
-// FILE: TwoPin_DS18B20.ino
-// AUTHOR: Rob Tillaart
-// VERSION: 0.1.00
-// PURPOSE: two pins for two sensors demo
-// DATE: 2014-06-13
-// URL: http://forum.arduino.cc/index.php?topic=216835.msg1764333#msg1764333
-//
-// Released to the public domain
-//
-
-// sibati cijelo vrijeme podatke na io cloud, a samo pritiskom na dugme zapisati u google sheets DONE
-// jos samo spojiti crvenu ledicu za power on, zelenu staviti na ovaj kod koji je trenutno, promijeniti imena varijabli, pocistiti kod, polemiti sve i spremno za test
-
 #include <math.h>
 #include "config.h"
 #include <WiFi.h>
@@ -53,10 +39,10 @@ static const uint32_t GPSBaud = 4800; // this is fairly important
 TinyGPSPlus gps;
 HardwareSerial Serial1(2);
 
-const char* ssid      = "CFBPlab";
-const char* pass      = "zelenakravanadnuoceana";
-const char* resource  = "/trigger/sensor_data_test/with/key/bRQTfIjBrmkSqeT3QeTt0E";
-const char* server    = "maker.ifttt.com";
+const char* ssid      = "-----";
+const char* pass      = "-----";
+const char* resource  = "-----";
+const char* server    = "-----";
 
 
 void setup(void) {
