@@ -1,4 +1,4 @@
 # Compost probe with ESP32
 This is a source code for the compost probe presented as part of the novel Agricultural IoT Compost Monitoring Architecture. Code includes thermistor epoxy 3950 and DS18B20 sensors. Other sensors will be included after more rigorous testing. 
 
-![The IoT Architecture](The architecture for the agriculture IoT probe.png)
+![The IoT Architecture](Architecture.png)
