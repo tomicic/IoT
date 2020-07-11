@@ -5,6 +5,6 @@ The following image represents the architecture in a nutshell.
 ![The IoT Architecture](Architecture.png)
 
 The following table lists the most important, easily obtainable architecture components. 
-![The IoT Architecture](components.png)
+![The IoT Architecture](components_v2.png)
 
 Detailed instructions on physically assembling the probe will be published within this file. 
